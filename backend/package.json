@@ -1,0 +1,23 @@
+{
+  "name": "afirmative-pill-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file-if-exists=.env src/index.js",
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "test": "node --env-file-if-exists=.env --test"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "@as-integrations/express5": "^1.1.2",
+    "@graphql-tools/schema": "^10.1.1",
+    "cors": "^2.8.6",
+    "dataloader": "^2.2.3",
+    "express": "^5.2.1",
+    "graphql": "^16.14.2",
+    "graphql-subscriptions": "^3.0.0",
+    "graphql-ws": "^6.3.0",
+    "pg": "^8.23.0",
+    "ws": "^8.21.3"
+  }
+}
